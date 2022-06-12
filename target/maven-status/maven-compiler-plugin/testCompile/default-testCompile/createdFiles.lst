@@ -1,0 +1,9 @@
+com\ecommerce\PageObjects\LoginPage.class
+com\ecommerce\TestCases\TC_Add_customer.class
+com\ecommerce\utilities\Reporting.class
+com\ecommerce\utilities\XLUtils.class
+com\ecommerce\TestCases\BaseClass.class
+com\ecommerce\TestCases\TC_Login_001.class
+com\ecommerce\utilities\ReadConfig.class
+com\ecommerce\PageObjects\AddCustomerPage.class
+com\ecommerce\TestCases\TC_login_DDT.class

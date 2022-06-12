@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="ecommerce" thread-count="5" parallel="tests">
+
+<test name="ecommerceTestChrome">
+<parameter name="browser" value="chrome"></parameter>
+<classes>
+<class name="com.ecommerce.TestCases.TC_Login_001"></class>
+<!--  <class name="com.ecommerce.TestCases.TC_Add_customer"></class>-->
+</classes>
+</test>
+
+
+<test name="ecommerceTestIE">
+<parameter name="browser" value="ie"></parameter>
+<classes>
+<class name="com.ecommerce.TestCases.TC_Login_001"></class>
+<!--  <class name="com.ecommerce.TestCases.TC_Add_customer"></class>-->
+</classes>
+</test>
+
+<test name="ecommerceTestfirefox">
+<parameter name="browser" value="firefox"></parameter>
+<classes>
+<class name="com.ecommerce.TestCases.TC_Login_001"></class>
+<!--  <class name="com.ecommerce.TestCases.TC_Add_customer"></class>-->
+</classes>
+</test>
+
+</suite>

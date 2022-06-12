@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Failed suite [ecommerce]" duration-ms="32722" started-at="2022-06-11T03:32:00Z" finished-at="2022-06-11T03:32:32Z">
+    <groups>
+      <group name="regression">
+        <method signature="TC_Add_customer.AddCustomer()[pri:0, instance:com.ecommerce.TestCases.TC_Add_customer@544fe44c]" name="AddCustomer" class="com.ecommerce.TestCases.TC_Add_customer"/>
+      </group> <!-- regression -->
+      <group name="master">
+        <method signature="TC_Add_customer.AddCustomer()[pri:0, instance:com.ecommerce.TestCases.TC_Add_customer@544fe44c]" name="AddCustomer" class="com.ecommerce.TestCases.TC_Add_customer"/>
+      </group> <!-- master -->
+    </groups>
+    <test name="ecommerceTest(failed)" duration-ms="32722" started-at="2022-06-11T03:32:00Z" finished-at="2022-06-11T03:32:32Z">
+      <class name="com.ecommerce.TestCases.TC_Add_customer">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.TestCases.TC_Add_customer@544fe44c]" name="setup" is-config="true" duration-ms="10944" started-at="2022-06-11T03:32:00Z" finished-at="2022-06-11T03:32:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AddCustomer()[pri:0, instance:com.ecommerce.TestCases.TC_Add_customer@544fe44c]" name="AddCustomer" duration-ms="20076" started-at="2022-06-11T03:32:11Z" finished-at="2022-06-11T03:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCustomer -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ecommerce.TestCases.TC_Add_customer@544fe44c]" name="teardown" is-config="true" duration-ms="1130" started-at="2022-06-11T03:32:31Z" finished-at="2022-06-11T03:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ecommerce.TestCases.TC_Add_customer -->
+    </test> <!-- ecommerceTest(failed) -->
+  </suite> <!-- Failed suite [ecommerce] -->
+</testng-results>

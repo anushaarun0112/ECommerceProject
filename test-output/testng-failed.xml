@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ecommerce]">
+  <listeners>
+    <listener class-name="com.ecommerce.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="ecommerceTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.ecommerce.TestCases.TC_Add_customer">
+        <methods>
+          <include name="AddCustomer"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ecommerce.TestCases.TC_Add_customer -->
+    </classes>
+  </test> <!-- ecommerceTest(failed) -->
+</suite> <!-- Failed suite [ecommerce] -->
